@@ -29,7 +29,6 @@ function Header({ children, link, color, type = 1, songs }) {
   if (type === 2)
     return (
       <header
-        // prettier-ignore
         className={`fixed bg-${color}-base z-10 w-full border-b-2 opacity-80 border-${color}-dark`}
       >
         <div className="flex h-[10vh] items-center justify-around">
