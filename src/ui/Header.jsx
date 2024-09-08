@@ -7,11 +7,12 @@ import { TfiClose } from "react-icons/tfi";
 function Header({ children, link, color, type = 1, songs }) {
   const [isOpen, setIsOpen] = useState(false);
 
+  const headerClassname = `fixed bg-${color}-base z-10 w-full border-b-2 opacity-80 border-${color}-dark`;
+  console.log(headerClassname);
+
   if (type === 1)
     return (
-      <header
-        className={`fixed bg-${color}-base z-10 w-full border-b-2 opacity-80 border-${color}-dark`}
-      >
+      <header className={headerClassname}>
         <div className="flex h-[10vh] items-center justify-between px-4">
           <span
             className={`px-4 py-2 text-3xl bg-${color}-dark rounded-lg text-${color}-light`}
@@ -34,11 +35,11 @@ function Header({ children, link, color, type = 1, songs }) {
         <div className="flex h-[10vh] items-center justify-around">
           <a href={link}>
             <IoLink
-              className={`size-9  text-${color}-light rounded-lg p-1 bg-${color}-dark shadow-md shadow-${color}-dark`}
+              className={`size-9 text-${color}-light rounded-lg p-1 bg-${color}-dark shadow-md shadow-${color}-dark`}
             />
           </a>
           <span
-            className={`text-3xl shadow-md shadow-${color}-dark rounded-lg p-2 font-semibold  text-${color}-dark border-b-2 border-${color}-dark `}
+            className={`text-3xl shadow-md shadow-${color}-dark rounded-lg p-2 font-semibold text-${color}-dark border-b-2 border-${color}-dark `}
           >
             {children}
           </span>
