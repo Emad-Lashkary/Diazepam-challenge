@@ -10,10 +10,10 @@ export default {
           base: "#b47366",
           dark: "#251113",
         },
-        customGreen: {
-          light: "#80ed99",
-          base: "#38b000",
-          dark: "#007f5f",
+        shadyplaylist: {
+          light: "#bcb8d3",
+          base: "#9d80b0",
+          dark: "#261f41",
         },
       },
     },

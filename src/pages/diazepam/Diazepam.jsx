@@ -2,22 +2,14 @@ import DiazepamImg from "./DiazepamImg";
 import Header from "./DiazepamHeader";
 import DiazepamP from "./DiazepamP";
 import Footer from "./Footer";
+import { NavLink } from "react-router-dom";
 
 function Diazepam() {
-  const songs = [
-    {
-      name: "kavakar",
-      link: "https://open.spotify.com/album/2Gq0BfIewJqKFk0KncpsMA",
-    },
-    { name: "jahananm", link: "" },
-    { name: "jahanam", link: "" },
-  ];
-
   return (
     <div className="diazepam">
       <div className="relative h-[10vh]">
         <DiazepamImg src="/diazepam.jpg" />
-        <Header link="https://t.me/emdpills" type={1} songs={songs}>
+        <Header link="https://t.me/emdpills" type={1}>
           Diazepam Challenge
         </Header>
       </div>
@@ -69,22 +61,22 @@ function Diazepam() {
         </h2>
         <ul className="gp-2 flex w-[70%] flex-col items-center border-x-2 border-diazepam-dark">
           <li>
-            <a href="*">Shady Playlist</a>
+            <NavLink to="/shadyplaylist">Shady Playlist</NavLink>
           </li>
           <li>
-            <a href="*">Shady Playlist</a>
+            <NavLink to="*">Shady Playlist</NavLink>
           </li>
           <li>
-            <a href="*">Shady Playlist</a>
+            <NavLink to="*">Shady Playlist</NavLink>
           </li>
           <li>
-            <a href="*">Shady Playlist</a>
+            <NavLink to="*">Shady Playlist</NavLink>
           </li>
           <li>
-            <a href="*">Shady Playlist</a>
+            <NavLink to="*">Shady Playlist</NavLink>
           </li>
           <li>
-            <a href="*">Shady Playlist</a>
+            <NavLink to="*">Shady Playlist</NavLink>
           </li>
         </ul>
       </section>

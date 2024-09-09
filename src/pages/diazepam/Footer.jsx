@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="to relative flex h-auto w-full items-center justify-center bg-gradient-to-tr from-diazepam-light to-diazepam-dark px-3 py-6">
       <div className="flex flex-col items-center gap-5">
-        <h2 className="mx-4 my-5 mt-6 flex justify-center rounded-lg bg-diazepam-dark px-6 py-3 text-2xl text-diazepam-light shadow-lg shadow-diazepam-dark">
+        <h2 className="mx-4 my-5 mt-6 flex justify-center rounded-lg px-6 py-3 text-2xl text-diazepam-dark shadow-lg shadow-diazepam-dark">
           Contact Developer
         </h2>
         <a
