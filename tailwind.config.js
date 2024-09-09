@@ -15,6 +15,12 @@ export default {
           base: "#9d80b0",
           dark: "#261f41",
         },
+        zehnemariz: {
+          light: "#9db3b0",
+          base: "#345f6a",
+          second: "#948c7c",
+          dark: "#111d21",
+        },
       },
     },
   },

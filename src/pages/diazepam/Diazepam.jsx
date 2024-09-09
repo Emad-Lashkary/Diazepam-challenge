@@ -64,7 +64,7 @@ function Diazepam() {
             <NavLink to="/shadyplaylist">Shady Playlist</NavLink>
           </li>
           <li>
-            <NavLink to="*">Shady Playlist</NavLink>
+            <NavLink to="/zehnemariz">Zehne Mariz</NavLink>
           </li>
           <li>
             <NavLink to="*">Shady Playlist</NavLink>
