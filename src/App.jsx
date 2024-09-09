@@ -1,5 +1,5 @@
 import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
-import Diazepam from "./pages/Diazepam";
+import Diazepam from "./pages/diazepam/Diazepam";
 
 function App() {
   return (

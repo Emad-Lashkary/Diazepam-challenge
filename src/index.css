@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+b {
+  font-weight: 600;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+.diazepam {
+  font-family: "Libre Baskerville", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+.diazepam header {
+  font-family: "Libre Baskerville", serif;
+}
+.diazepam section {
+  background-image: linear-gradient(to right bottom, #f5e7e6, #251113);
+}
+.diazepam ul li {
+  font-size: larger;
+  margin: 12px 2px;
+  padding: 12px 32px;
+  background-color: #251113;
+  color: #f5e7e6;
+  border-radius: 8px;
+  box-shadow: #251113 0px 8px 15px;
+}

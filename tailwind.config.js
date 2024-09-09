@@ -20,24 +20,3 @@ export default {
   },
   plugins: [],
 };
-
-module.exports = {
-  safelist: [
-    "bg-diazepam-light",
-    "bg-diazepam-base",
-    "bg-diazepam-dark",
-    "text-diazepam-light",
-    "text-diazepam-light",
-    "text-diazepam-base",
-    "b-diazepam-base",
-    "b-diazepam-base",
-    "b-diazepam-dark",
-    "shadow-diazepam-dark",
-    "shadow-diazepam-dark",
-    "shadow-diazepam-dark",
-  ],
-};
-
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-};
