@@ -34,6 +34,13 @@ export default {
           second: "#f5e6a1",
           secondark: "#c67e24",
         },
+        dream: {
+          light: "#f8daab",
+          base: "#f19272",
+          dark: "#6e2723",
+          second: "#a2c2ce",
+          secondark: "#0d131f",
+        },
         blackheart: {
           light: "#c9c9c9",
           base: "#686667",

@@ -75,8 +75,8 @@ function Diazepam() {
           <li className="from-blackheart-base to to-blackheart-dark text-blackheart-light shadow-blackheart-dark flex w-[75%] justify-center bg-gradient-to-br shadow-lg">
             <NavLink to="/blackheart">Black heart</NavLink>
           </li>
-          <li>
-            <NavLink to="*">Shady Playlist</NavLink>
+          <li className="from-dream-base to-dream-secondark text-dream-second shadow-dream-secondark flex w-[75%] justify-center bg-gradient-to-br shadow-lg">
+            <NavLink to="/dream">For a Dream</NavLink>
           </li>
         </ul>
       </section>
