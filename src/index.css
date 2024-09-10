@@ -28,11 +28,11 @@ b {
   font-size: larger;
   margin: 12px 2px;
   padding: 12px 32px;
-  background-color: #251113;
-  color: #f5e7e6;
+  /* background-color: #251113; */
+  /* color: #f5e7e6; */
   border-radius: 8px;
-  box-shadow: #251113 0px 8px 15px;
-  filter: contrast(90%);
+  /* box-shadow: #251113 0px 8px 15px; */
+  filter: contrast(97%);
   letter-spacing: 1px;
 }
 

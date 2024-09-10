@@ -5,7 +5,7 @@ import { MdOutlineMail } from "react-icons/md";
 
 function Footer() {
   return (
-    <footer className="to relative flex h-auto w-full items-center justify-center bg-gradient-to-tr from-diazepam-light to-diazepam-dark px-3 py-6">
+    <footer className="to relative flex h-auto w-full items-center justify-center bg-gradient-to-tr from-diazepam-light to-diazepam-dark px-3 py-8">
       <div className="flex flex-col items-center gap-5">
         <h2 className="mx-4 my-5 mt-6 flex justify-center rounded-lg px-6 py-3 text-2xl text-diazepam-dark shadow-lg shadow-diazepam-dark">
           Contact Developer
@@ -45,6 +45,11 @@ function Footer() {
           <span>09350633890</span>
         </a>
       </div>
+      <img
+        className="pointer-events-none absolute z-10 mt-5 h-full w-full opacity-15 contrast-150"
+        src="/logo.jpg"
+        alt="shadyplaylist main background"
+      />
     </footer>
   );
 }

@@ -21,6 +21,12 @@ export default {
           second: "#948c7c",
           dark: "#111d21",
         },
+        savagevibe: {
+          light: "#a6a2c2",
+          base: "#5e3760",
+          second: "#b1b4c7",
+          dark: "#1d0f30",
+        },
       },
     },
   },
