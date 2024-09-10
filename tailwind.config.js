@@ -34,6 +34,11 @@ export default {
           second: "#f5e6a1",
           secondark: "#c67e24",
         },
+        blackheart: {
+          light: "#c9c9c9",
+          base: "#686667",
+          dark: "#1a1819",
+        },
       },
     },
   },

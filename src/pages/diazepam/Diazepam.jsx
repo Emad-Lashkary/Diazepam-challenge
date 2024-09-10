@@ -60,20 +60,20 @@ function Diazepam() {
           Participants Pages:
         </h2>
         <ul className="gp-2 flex w-[70%] flex-col items-center border-x-2 border-diazepam-dark">
-          <li className="bg-shadyplaylist-dark shadow-shadyplaylist-dark text-shadyplaylist-light flex w-[75%] justify-center shadow-lg">
+          <li className="flex w-[75%] justify-center bg-gradient-to-br from-shadyplaylist-base to-shadyplaylist-dark text-shadyplaylist-light shadow-lg shadow-shadyplaylist-dark">
             <NavLink to="/shadyplaylist">Shady Playlist</NavLink>
           </li>
-          <li className="bg-zehnemariz-base shadow-zehnemariz-base text-zehnemariz-second flex w-[75%] justify-center shadow-lg">
+          <li className="flex w-[75%] justify-center bg-gradient-to-br from-zehnemariz-dark to-zehnemariz-base text-zehnemariz-second shadow-lg shadow-zehnemariz-base">
             <NavLink to="/zehnemariz">Zehne Mariz</NavLink>
           </li>
-          <li className="bg-savagevibe-base shadow-savagevibe-base text-savagevibe-second flex w-[75%] justify-center shadow-lg">
+          <li className="flex w-[75%] justify-center bg-gradient-to-br from-savagevibe-base to-savagevibe-dark text-savagevibe-second shadow-lg shadow-savagevibe-base">
             <NavLink to="/savagevibe">Savage Vibe</NavLink>
           </li>
-          <li className="bg-fairy-second shadow-fairy-secondark text-fairy-secondark flex w-[75%] justify-center shadow-lg">
+          <li className="flex w-[75%] justify-center bg-gradient-to-br from-fairy-base to-fairy-secondark text-fairy-second shadow-lg shadow-fairy-secondark">
             <NavLink to="/fairy">A fairy</NavLink>
           </li>
-          <li>
-            <NavLink to="*">Shady Playlist</NavLink>
+          <li className="from-blackheart-base to to-blackheart-dark text-blackheart-light shadow-blackheart-dark flex w-[75%] justify-center bg-gradient-to-br shadow-lg">
+            <NavLink to="/blackheart">Black heart</NavLink>
           </li>
           <li>
             <NavLink to="*">Shady Playlist</NavLink>

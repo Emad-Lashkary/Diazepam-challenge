@@ -21,7 +21,7 @@ function Savagevibe() {
       link: "https://open.spotify.com/track/0yc6Gst2xkRu0eMLeRMGCX?si=13d36048aeee4759",
     },
   ];
-  const words = ["Always", "try", "to", "stay", "strong."];
+  const words = ["Always", "try", "to", "stay", "positive."];
   function handleInc() {
     if (value < 5) {
       setValue((value) => value + 1);
@@ -42,7 +42,7 @@ function Savagevibe() {
         <div className="relative my-4">
           <NavLink
             to="/"
-            className="bg-shadyplaylist-dark text-shadyplaylist-light absolute left-[50%] translate-x-[-50%] rounded-lg px-4 py-2"
+            className="absolute left-[50%] translate-x-[-50%] rounded-lg bg-shadyplaylist-dark px-4 py-2 text-shadyplaylist-light"
           >
             Main Challenge Page
           </NavLink>
@@ -65,7 +65,7 @@ function Savagevibe() {
       </div>
 
       <div className="flex justify-center">
-        <div className="bg-savagevibe-second mt-10 flex w-[50%] flex-col items-center rounded-full bg-opacity-50">
+        <div className="mt-10 flex w-[50%] flex-col items-center rounded-full bg-savagevibe-second bg-opacity-50">
           <div className="flex w-max gap-4">
             <button onClick={handleDec}>
               <FaMinus />
