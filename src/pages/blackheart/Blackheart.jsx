@@ -9,16 +9,20 @@ function Blackheart() {
   const [value, setValue] = useState(1);
   const songs = [
     {
-      name: "Isaac Hong - Fallin'",
-      link: "https://open.spotify.com/track/0sbFehFR6z0DbthqkJivpa?si=fc4ce6d411564c2c",
+      name: "Mohsen Lorestani - Dokhtare Shar'",
+      link: "https://open.spotify.com/track/4N46St4gUHarQiRiEt7TDa?si=a9560da9db8d4a31",
     },
     {
-      name: "The Neighbourhood - Unfair",
-      link: "https://open.spotify.com/track/0xD23i0X1WjqMSYIxRfO80?si=6b4ab9c6926e4522",
+      name: "Mohsen Lorestani - Bi kas",
+      link: "https://open.spotify.com/track/6DTIAxw9GTTAqIYFn0xTBl?si=ad06a2f04aba48e3",
     },
     {
       name: "cigarettes After Sex - Apocalypse",
       link: "https://open.spotify.com/track/0yc6Gst2xkRu0eMLeRMGCX?si=13d36048aeee4759",
+    },
+    {
+      name: "FFDP - Jekyll and hyde",
+      link: "https://open.spotify.com/track/6efSwlK3LOlWOeKK9xlUKF?si=48557bd1edc0471a",
     },
   ];
   const words = ["Stay", "focus", "on", "your", "personal", "growth"];
