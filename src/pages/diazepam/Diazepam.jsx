@@ -60,17 +60,17 @@ function Diazepam() {
           Participants Pages:
         </h2>
         <ul className="gp-2 flex w-[70%] flex-col items-center border-x-2 border-diazepam-dark">
-          <li className="bg-shadyplaylist-dark shadow-shadyplaylist-dark text-shadyplaylist-light shadow-lg">
+          <li className="bg-shadyplaylist-dark shadow-shadyplaylist-dark text-shadyplaylist-light flex w-[75%] justify-center shadow-lg">
             <NavLink to="/shadyplaylist">Shady Playlist</NavLink>
           </li>
-          <li className="bg-zehnemariz-base shadow-zehnemariz-base text-zehnemariz-second shadow-lg">
+          <li className="bg-zehnemariz-base shadow-zehnemariz-base text-zehnemariz-second flex w-[75%] justify-center shadow-lg">
             <NavLink to="/zehnemariz">Zehne Mariz</NavLink>
           </li>
-          <li className="bg-savagevibe-base shadow-savagevibe-base text-savagevibe-second shadow-lg">
+          <li className="bg-savagevibe-base shadow-savagevibe-base text-savagevibe-second flex w-[75%] justify-center shadow-lg">
             <NavLink to="/savagevibe">Savage Vibe</NavLink>
           </li>
-          <li>
-            <NavLink to="*">Shady Playlist</NavLink>
+          <li className="bg-fairy-second shadow-fairy-secondark text-fairy-secondark flex w-[75%] justify-center shadow-lg">
+            <NavLink to="/fairy">A fairy</NavLink>
           </li>
           <li>
             <NavLink to="*">Shady Playlist</NavLink>

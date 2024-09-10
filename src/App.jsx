@@ -3,6 +3,7 @@ import Diazepam from "./pages/diazepam/Diazepam";
 import Shadyplaylist from "./pages/shadyplaylist/Shadyplaylist";
 import Zehnemariz from "./pages/zehnemariz/Zehnemariz";
 import Savagevibe from "./pages/savagevibe/Savagevibe";
+import Fairy from "./pages/fairy/Fairy";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="shadyplaylist" element={<Shadyplaylist />} />
         <Route path="zehnemariz" element={<Zehnemariz />} />
         <Route path="Savagevibe" element={<Savagevibe />} />
+        <Route path="fairy" element={<Fairy />} />
       </Routes>
     </HashRouter>
   );
