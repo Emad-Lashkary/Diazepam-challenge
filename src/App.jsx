@@ -9,6 +9,7 @@ import Dream from "./pages/dream/Dream";
 import Deez from "./pages/Deez/Deez";
 import Changed from "./pages/changed/Changed";
 import Circus from "./pages/diazepam/circus/Circus";
+import Xanax from "./pages/xanax/Xanax";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="deez" element={<Deez />} />
         <Route path="changed" element={<Changed />} />
         <Route path="circus" element={<Circus />} />
+        <Route path="xanax" element={<Xanax />} />
       </Routes>
     </HashRouter>
   );

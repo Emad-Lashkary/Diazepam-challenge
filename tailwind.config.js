@@ -41,6 +41,13 @@ export default {
           second: "#a2c2ce",
           secondark: "#0d131f",
         },
+        xanax: {
+          light: "#d7d1b9",
+          base: "#7eb6c5",
+          dark: "#30405d",
+          second: "#ecbd65",
+          secondark: "#bb4125",
+        },
         blackheart: {
           light: "#c9c9c9",
           base: "#686667",

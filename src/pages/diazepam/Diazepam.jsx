@@ -87,6 +87,9 @@ function Diazepam() {
           <li className="via-circus-base from-circus-dark text-circus-light shadow-circus-dark flex w-[85%] justify-center bg-gradient-to-br to-red-700 font-semibold shadow-lg">
             <NavLink to="/circus">Circus</NavLink>
           </li>
+          <li className="via-xanax-base from-xanax-dark text-xanax-light shadow-xanax-dark flex w-[85%] justify-center bg-gradient-to-br to-red-700 font-semibold shadow-lg">
+            <NavLink to="/xanax">Xanax</NavLink>
+          </li>
         </ul>
       </section>
       <Footer />
