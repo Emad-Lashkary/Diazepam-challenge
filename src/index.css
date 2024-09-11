@@ -14,8 +14,7 @@ b {
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nerko+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nerko+One&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nerko+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 .diazepam {
   font-family: "Libre Baskerville", sans-serif;
 }
@@ -41,6 +40,5 @@ b {
   font-family: "Nerko One", cursive;
 }
 .dream {
-  font-family: "Aboreto", system-ui;
-  font-style: normal;
+  font-family: "Raleway", serif;
 }

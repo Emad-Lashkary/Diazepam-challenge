@@ -46,6 +46,13 @@ export default {
           base: "#686667",
           dark: "#1a1819",
         },
+        deez: {
+          first: "#f2e079",
+          second: "#f4d9bb",
+          third: "#b8e7e1",
+          fourth: "#b10040",
+          fiveth: "#2c4334",
+        },
       },
     },
   },

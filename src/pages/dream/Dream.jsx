@@ -40,12 +40,12 @@ function Dream() {
       <DreamHeader2 link="https://t.me/purple_jigh" type={4} songs={songs} />
       <DreamImg src="/dream.jpg" />
       <div className="flex w-full flex-col gap-[10vh] pt-[25vh]">
-        <div className="mt-5 flex flex-col justify-center">
-          <DreamP className="w-[90%] rounded-xl text-lg">
+        <div className="mt-10 flex flex-col justify-center">
+          <DreamP className="w-[90%] rounded-xl text-xl">
             When the snows fall and the white winds blow, the lone wolf dies but
             the pack survives.
           </DreamP>
-          <DreamP className="w-[70%] rounded-xl text-lg">
+          <DreamP className="w-[70%] rounded-xl text-xl">
             My sanity check is to see if I'm able to keep shit people away.
           </DreamP>
         </div>

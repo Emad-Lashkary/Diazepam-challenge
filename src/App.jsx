@@ -6,6 +6,7 @@ import Savagevibe from "./pages/savagevibe/Savagevibe";
 import Fairy from "./pages/fairy/Fairy";
 import Blackheart from "./pages/blackheart/Blackheart";
 import Dream from "./pages/dream/Dream";
+import Deez from "./pages/Deez/Deez";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="fairy" element={<Fairy />} />
         <Route path="blackheart" element={<Blackheart />} />
         <Route path="Dream" element={<Dream />} />
+        <Route path="deez" element={<Deez />} />
       </Routes>
     </HashRouter>
   );
