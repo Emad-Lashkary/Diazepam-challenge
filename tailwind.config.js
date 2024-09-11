@@ -51,6 +51,11 @@ export default {
           base: "#4a484a",
           dark: "#211f20",
         },
+        circus: {
+          light: "#aea5a1",
+          base: "#9c4955",
+          dark: "#1c0a18",
+        },
         deez: {
           first: "#f2e079",
           second: "#f4d9bb",

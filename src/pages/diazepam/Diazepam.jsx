@@ -78,11 +78,14 @@ function Diazepam() {
           <li className="from-dream-base to-dream-secondark text-dream-second shadow-dream-secondark flex w-[75%] justify-center bg-gradient-to-br shadow-lg">
             <NavLink to="/dream">For a Dream</NavLink>
           </li>
-          <li className="to-deez-fiveth via-deez-first from-deez-third text-deez-fourth shadow-deez-secondark flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+          <li className="to-deez-fiveth via-deez-first from-deez-third text-deez-fourth shadow-deez-fiveth flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
             <NavLink to="/deez">Deez Songz</NavLink>
           </li>
-          <li className="to-changed-dark via-changed-base from-changed-light text-changed-light shadow-deez-secondark flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+          <li className="to-changed-dark via-changed-base from-changed-light text-changed-light shadow-changed-dark flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
             <NavLink to="/changed">Changed</NavLink>
+          </li>
+          <li className="via-circus-base from-circus-dark text-circus-light shadow-circus-dark flex w-[75%] justify-center bg-gradient-to-br to-red-700 font-semibold shadow-lg">
+            <NavLink to="/circus">Circus</NavLink>
           </li>
         </ul>
       </section>

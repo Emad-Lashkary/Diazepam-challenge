@@ -14,7 +14,7 @@ function Header({ children, link, type = 1, songs }) {
       >
         <div className="flex h-full items-center justify-between px-4">
           <span
-            className={`rounded-lg bg-diazepam-dark px-4 py-2 text-3xl text-diazepam-light`}
+            className={`rounded-lg bg-diazepam-dark px-4 py-2 text-2xl text-diazepam-light`}
           >
             {children}
           </span>
