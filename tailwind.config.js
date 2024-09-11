@@ -46,6 +46,11 @@ export default {
           base: "#686667",
           dark: "#1a1819",
         },
+        changed: {
+          light: "#c7c7c7",
+          base: "#4a484a",
+          dark: "#211f20",
+        },
         deez: {
           first: "#f2e079",
           second: "#f4d9bb",

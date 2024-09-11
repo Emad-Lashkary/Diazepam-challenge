@@ -81,6 +81,9 @@ function Diazepam() {
           <li className="to-deez-fiveth via-deez-first from-deez-third text-deez-fourth shadow-deez-secondark flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
             <NavLink to="/deez">Deez Songz</NavLink>
           </li>
+          <li className="to-changed-dark via-changed-base from-changed-light text-changed-light shadow-deez-secondark flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+            <NavLink to="/changed">Changed</NavLink>
+          </li>
         </ul>
       </section>
       <Footer />

@@ -7,6 +7,7 @@ import Fairy from "./pages/fairy/Fairy";
 import Blackheart from "./pages/blackheart/Blackheart";
 import Dream from "./pages/dream/Dream";
 import Deez from "./pages/Deez/Deez";
+import Changed from "./pages/changed/Changed";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="blackheart" element={<Blackheart />} />
         <Route path="Dream" element={<Dream />} />
         <Route path="deez" element={<Deez />} />
+        <Route path="changed" element={<Changed />} />
       </Routes>
     </HashRouter>
   );
