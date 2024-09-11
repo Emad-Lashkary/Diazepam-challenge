@@ -6,12 +6,16 @@ import { NavLink } from "react-router-dom";
 function Circus() {
   const songs = [
     {
-      name: "Light me up - The pretty Reckless",
-      link: "https://open.spotify.com/album/0moY5BetMaS0Vyi0Hh3zpb",
+      name: "V.A.N - Bad Omens",
+      link: "https://open.spotify.com/track/2WtFbotxC95UD2r1RzE036?si=20159af0d1084e0b",
     },
     {
       name: "Currents - The Way it Ends",
-      link: "https://open.spotify.com/album/2pVCexIJwUK0Mg9cFtDhxr",
+      link: "https://open.spotify.com/track/0wH55ChKuoZkmGhbIYtOI4?si=ffd1897f90b04fe7",
+    },
+    {
+      name: "All The Things She Said - Poppy",
+      link: "https://open.spotify.com/album/0moY5BetMaS0Vyi0Hh3zpb",
     },
     {
       name: "Slipknot - We Are Not your Kind",

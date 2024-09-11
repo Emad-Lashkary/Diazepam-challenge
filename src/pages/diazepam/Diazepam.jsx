@@ -38,19 +38,19 @@ function Diazepam() {
           </button>
         </DiazepamP>
 
-        <DiazepamP className="flex flex-col gap-1">
+        <DiazepamP className="flex w-fit flex-col gap-1 self-center px-5">
           <p className="text-xl font-bold">Challenge overview:</p>
           <p>
-            <b>Participants</b>: 10
+            <b>Participants</b>: 15
           </p>
           <p>
             <b>Start date</b>: 9 september
           </p>
           <p>
-            <b>Challenge duration</b>: 3 days
+            <b>Challenge duration</b>: 2 days
           </p>
           <p>
-            <b>Creating pages duration</b>: 7 days
+            <b>Creating pages duration</b>: 3 days
           </p>
         </DiazepamP>
       </div>
