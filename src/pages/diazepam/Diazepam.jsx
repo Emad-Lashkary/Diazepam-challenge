@@ -60,31 +60,31 @@ function Diazepam() {
           Participants Pages:
         </h2>
         <ul className="gp-2 flex w-[70%] flex-col items-center border-x-2 border-diazepam-dark">
-          <li className="flex w-[75%] justify-center bg-gradient-to-br from-shadyplaylist-base to-shadyplaylist-dark text-shadyplaylist-light shadow-lg shadow-shadyplaylist-dark">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-shadyplaylist-base to-shadyplaylist-dark text-shadyplaylist-light shadow-lg shadow-shadyplaylist-dark">
             <NavLink to="/shadyplaylist">Shady Playlist</NavLink>
           </li>
-          <li className="flex w-[75%] justify-center bg-gradient-to-br from-zehnemariz-dark to-zehnemariz-base text-zehnemariz-second shadow-lg shadow-zehnemariz-base">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-zehnemariz-dark to-zehnemariz-base text-zehnemariz-second shadow-lg shadow-zehnemariz-base">
             <NavLink to="/zehnemariz">Zehne Mariz</NavLink>
           </li>
-          <li className="flex w-[75%] justify-center bg-gradient-to-br from-savagevibe-base to-savagevibe-dark text-savagevibe-second shadow-lg shadow-savagevibe-base">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-savagevibe-base to-savagevibe-dark text-savagevibe-second shadow-lg shadow-savagevibe-base">
             <NavLink to="/savagevibe">Savage Vibe</NavLink>
           </li>
-          <li className="flex w-[75%] justify-center bg-gradient-to-br from-fairy-base to-fairy-secondark text-fairy-second shadow-lg shadow-fairy-secondark">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-fairy-base to-fairy-secondark text-fairy-second shadow-lg shadow-fairy-secondark">
             <NavLink to="/fairy">A fairy</NavLink>
           </li>
-          <li className="from-blackheart-base to to-blackheart-dark text-blackheart-light shadow-blackheart-dark flex w-[75%] justify-center bg-gradient-to-br shadow-lg">
+          <li className="from-blackheart-base to to-blackheart-dark text-blackheart-light shadow-blackheart-dark flex w-[85%] justify-center bg-gradient-to-br shadow-lg">
             <NavLink to="/blackheart">Black heart</NavLink>
           </li>
-          <li className="from-dream-base to-dream-secondark text-dream-second shadow-dream-secondark flex w-[75%] justify-center bg-gradient-to-br shadow-lg">
+          <li className="from-dream-base to-dream-secondark text-dream-second shadow-dream-secondark flex w-[85%] justify-center bg-gradient-to-br shadow-lg">
             <NavLink to="/dream">For a Dream</NavLink>
           </li>
-          <li className="to-deez-fiveth via-deez-first from-deez-third text-deez-fourth shadow-deez-fiveth flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+          <li className="to-deez-fiveth via-deez-first from-deez-third text-deez-fourth shadow-deez-fiveth flex w-[85%] justify-center bg-gradient-to-br font-semibold shadow-lg">
             <NavLink to="/deez">Deez Songz</NavLink>
           </li>
-          <li className="to-changed-dark via-changed-base from-changed-light text-changed-light shadow-changed-dark flex w-[75%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+          <li className="to-changed-dark via-changed-base from-changed-light text-changed-light shadow-changed-dark flex w-[85%] justify-center bg-gradient-to-br font-semibold shadow-lg">
             <NavLink to="/changed">Changed</NavLink>
           </li>
-          <li className="via-circus-base from-circus-dark text-circus-light shadow-circus-dark flex w-[75%] justify-center bg-gradient-to-br to-red-700 font-semibold shadow-lg">
+          <li className="via-circus-base from-circus-dark text-circus-light shadow-circus-dark flex w-[85%] justify-center bg-gradient-to-br to-red-700 font-semibold shadow-lg">
             <NavLink to="/circus">Circus</NavLink>
           </li>
         </ul>
