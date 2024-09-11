@@ -2,12 +2,9 @@ import { NavLink } from "react-router-dom";
 import DreamHeader from "./DreamHeader";
 import DreamImg from "./DreamImg";
 import DreamP from "./DreamP";
-import { useState } from "react";
-import { FaMinus, FaPlus } from "react-icons/fa";
 import DreamHeader2 from "./DreamHeader2";
 
 function Dream() {
-  const [value, setValue] = useState(1);
   const songs = [
     {
       name: "Kensington - No Me",
@@ -36,7 +33,7 @@ function Dream() {
   ];
 
   return (
-    <div className="bg-dream-secondark relative h-screen bg-opacity-30">
+    <div className="bg-dream-secondark dream relative h-screen bg-opacity-30">
       <DreamHeader link="https://t.me/purple_jigh" type={3}>
         Requiem for a dream
       </DreamHeader>

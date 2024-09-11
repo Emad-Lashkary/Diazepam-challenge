@@ -59,7 +59,7 @@ function Fairy() {
 
       <NavLink
         to="/"
-        className="absolute bottom-6 left-[50%] translate-x-[-50%] rounded-lg bg-fairy-secondark px-4 py-2 text-xl font-semibold text-fairy-second"
+        className="absolute -bottom-10 left-[50%] translate-x-[-50%] rounded-lg bg-fairy-secondark px-4 py-2 text-xl font-semibold text-fairy-second"
       >
         Challenge Page
       </NavLink>
