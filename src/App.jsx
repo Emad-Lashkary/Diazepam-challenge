@@ -8,8 +8,9 @@ import Blackheart from "./pages/blackheart/Blackheart";
 import Dream from "./pages/dream/Dream";
 import Deez from "./pages/Deez/Deez";
 import Changed from "./pages/changed/Changed";
-import Circus from "./pages/diazepam/circus/Circus";
+import Circus from "./pages/circus/Circus";
 import Xanax from "./pages/xanax/Xanax";
+import Gt from "./pages/gt/Gt";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="changed" element={<Changed />} />
         <Route path="circus" element={<Circus />} />
         <Route path="xanax" element={<Xanax />} />
+        <Route path="gt" element={<Gt />} />
       </Routes>
     </HashRouter>
   );

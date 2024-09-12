@@ -63,6 +63,11 @@ export default {
           base: "#9c4955",
           dark: "#1c0a18",
         },
+        gt: {
+          light: "#ced6c7",
+          base: "#78877e",
+          dark: "#3d3336",
+        },
         deez: {
           first: "#f2e079",
           second: "#f4d9bb",

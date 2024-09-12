@@ -72,23 +72,35 @@ function Diazepam() {
           <li className="flex w-[85%] justify-center bg-gradient-to-br from-fairy-base to-fairy-secondark text-fairy-second shadow-lg shadow-fairy-secondark">
             <NavLink to="/fairy">A fairy</NavLink>
           </li>
-          <li className="from-blackheart-base to to-blackheart-dark text-blackheart-light shadow-blackheart-dark flex w-[85%] justify-center bg-gradient-to-br shadow-lg">
+          <li className="to flex w-[85%] justify-center bg-gradient-to-br from-blackheart-base to-blackheart-dark text-blackheart-light shadow-lg shadow-blackheart-dark">
             <NavLink to="/blackheart">Black heart</NavLink>
           </li>
-          <li className="from-dream-base to-dream-secondark text-dream-second shadow-dream-secondark flex w-[85%] justify-center bg-gradient-to-br shadow-lg">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-dream-base to-dream-secondark text-dream-second shadow-lg shadow-dream-secondark">
             <NavLink to="/dream">For a Dream</NavLink>
           </li>
-          <li className="to-deez-fiveth via-deez-first from-deez-third text-deez-fourth shadow-deez-fiveth flex w-[85%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-deez-third via-deez-first to-deez-fiveth font-semibold text-deez-fourth shadow-lg shadow-deez-fiveth">
             <NavLink to="/deez">Deez Songz</NavLink>
           </li>
-          <li className="to-changed-dark via-changed-base from-changed-light text-changed-light shadow-changed-dark flex w-[85%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-changed-light via-changed-base to-changed-dark font-semibold text-changed-light shadow-lg shadow-changed-dark">
             <NavLink to="/changed">Changed</NavLink>
           </li>
-          <li className="via-circus-base from-circus-dark text-circus-light shadow-circus-dark flex w-[85%] justify-center bg-gradient-to-br to-red-700 font-semibold shadow-lg">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-circus-dark via-circus-base to-red-700 font-semibold text-circus-light shadow-lg shadow-circus-dark">
             <NavLink to="/circus">Circus</NavLink>
           </li>
-          <li className="via-xanax-base from-xanax-dark text-xanax-light shadow-xanax-dark flex w-[85%] justify-center bg-gradient-to-br to-red-700 font-semibold shadow-lg">
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-xanax-dark via-xanax-base to-red-700 font-semibold text-xanax-light shadow-lg shadow-xanax-dark">
             <NavLink to="/xanax">Xanax</NavLink>
+          </li>
+          <li className="flex w-[85%] justify-center bg-gradient-to-br from-lime-400 via-lime-500 to-lime-900 font-semibold text-lime-50 shadow-lg shadow-lime-900">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://farnia-archive.vercel.app/"
+            >
+              Zadeh Noor
+            </a>
+          </li>
+          <li className="from-gt-dark to-gt-base text-gt-light shadow-gt-dark flex w-[85%] justify-center bg-gradient-to-br font-semibold shadow-lg">
+            <NavLink to="/gt">GT Playlist</NavLink>
           </li>
         </ul>
       </section>
