@@ -11,6 +11,7 @@ import Changed from "./pages/changed/Changed";
 import Circus from "./pages/circus/Circus";
 import Xanax from "./pages/xanax/Xanax";
 import Gt from "./pages/gt/Gt";
+import Ai from "./pages/ai/Ai";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="circus" element={<Circus />} />
         <Route path="xanax" element={<Xanax />} />
         <Route path="gt" element={<Gt />} />
+        <Route path="aiuola" element={<Ai />} />
       </Routes>
     </HashRouter>
   );

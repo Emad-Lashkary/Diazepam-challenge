@@ -27,6 +27,13 @@ export default {
           second: "#b1b4c7",
           dark: "#1d0f30",
         },
+        ai: {
+          light: "#bfd5c9",
+          base: "#66917d",
+          dark: "#3b4425",
+          second: "#776556",
+          secondark: "#3a312c",
+        },
         fairy: {
           light: "#c2f2ba",
           base: "#177251",

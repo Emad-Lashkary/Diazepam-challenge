@@ -102,6 +102,9 @@ function Diazepam() {
           <li className="from-gt-dark to-gt-base text-gt-light shadow-gt-dark flex w-[85%] justify-center bg-gradient-to-br font-semibold shadow-lg">
             <NavLink to="/gt">GT Playlist</NavLink>
           </li>
+          <li className="from-ai-base to-ai-secondark text-ai-light shadow-ai-secondark flex w-[85%] justify-center bg-gradient-to-br shadow-lg">
+            <NavLink to="/Aiuola">Aiuola</NavLink>
+          </li>
         </ul>
       </section>
       <Footer />
